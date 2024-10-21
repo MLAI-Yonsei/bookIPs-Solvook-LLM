@@ -13,7 +13,9 @@
 # limitations under the License.
 
 from llamafactory.train.tuner import run_exp
-
+from huggingface_hub import login
+from dotenv import load_dotenv
+import os
 
 def main():
     run_exp()
@@ -21,8 +23,13 @@ def main():
 
 def _mp_fn(index):
     # For xla_spawn (TPUs)
-    run_exp()
+    main()
+
+
 
 
 if __name__ == "__main__":
+    load_dotenv()  
+    api_key = os.getenv('API_KEY')
+    login(api_key)
     main()

@@ -571,5 +571,221 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "repeated_sentences" : {
+
+    "file_name": "repeated_sentences.json",
+    
+    
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+      
+    }
+  },
+  "llama3_edu_v2" : {
+
+    "file_name": "llama3_edu_v2.jsonl",
+    
+    
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+      
+    }
+  },
+  "llama3_edu_topk3_10" : {
+
+    "file_name": "llama3_edu_topk3_10.jsonl",
+    
+    
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+      
+    }
+  },
+  "skill_only_topk0" : {
+
+    "file_name": "skill_only_topk0.jsonl",
+    
+    
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+      
+    }
+  },
+  "eng_skill_only_topk0" : {
+
+    "file_name": "eng_skill_only_topk0.jsonl",
+    
+    
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+      
+    }
+  },
+  "Solvook_instruction_train_test" : {
+
+    "file_name": "Solvook_instruction_train_test.json",
+    
+    
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+      
+    }
+  },
+  "skill_top3" : {
+
+    "file_name": "skill_top3.jsonl",
+    
+    
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+      
+    }
+  },
+  "skill_top5" : {
+
+    "file_name": "skill_top5.jsonl",
+    
+    
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+      
+    }
+  },
+  "skill_top8" : {
+
+    "file_name": "skill_top8.jsonl",
+    
+    
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+      
+    }
+  },
+  "skill_top10" : {
+
+    "file_name": "skill_top10.jsonl",
+    
+    
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+      
+    }
+  },
+  "llama3_edu_v3" : {
+
+    "file_name": "llama3_edu_v3.json",
+    
+    
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+      
+    }
+  },
+  "Solvook_instruction_ver3_test" : {
+
+    "file_name": "Solvook_instruction_ver3_test.json",
+    
+    
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+      
+    }
+  },
+  "rag_ver3_test" : {
+
+    "file_name": "rag_ver3_test.json",
+    
+    
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+      
+    }
+  },
+  "Solvook_instruction_ver3_te" : {
+
+    "file_name": "Solvook_instruction_ver3_te.json",
+    
+    
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+      
+    }
+  },
+  "ver3_method_top3_te" : {
+
+    "file_name": "ver3_method_top3_te.json",
+    
+    
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+      
+    }
+  },
+  "ver3_paragraph_top3_te" : {
+
+    "file_name": "ver3_paragraph_top3_te.json",
+    
+    
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+      
+    }
+  },
+  "ver3_relation_top3_te" : {
+
+    "file_name": "ver3_relation_top3_te.json",
+    
+    
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+      
+    }
+  },
+  "ver3_skill_top3_te" : {
+
+    "file_name": "ver3_skill_top3_te.json",
+    
+    
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+      
+    }
   }
 }
