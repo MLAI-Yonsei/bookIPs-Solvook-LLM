@@ -127,6 +127,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+/data1/choins18/new_llama_github/LLaMA-Factory/api_key.env
 
 # Spyder project settings
 .spyderproject
