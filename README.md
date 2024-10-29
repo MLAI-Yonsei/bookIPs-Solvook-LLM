@@ -28,14 +28,14 @@ Similarly, place the provided adapter model files in a specific folder. The loca
 
 ## Quick Start
 ### Train
-### if you want to edit argument for training, edit file **examples/train_lora/llama3_lora_sft.yaml**
+if you want to edit argument for training, edit file **examples/train_lora/llama3_lora_sft.yaml**
 
 ```bash
 bash finetune.sh
 ```
 
 ### Inference
-### if you want to edit argument for training, edit file **examples/train_lora/llama3_lora_predict.yaml**
+if you want to edit argument for training, edit file **examples/train_lora/llama3_lora_predict.yaml**
 
 ```bash
 bash inference.sh
@@ -58,7 +58,7 @@ pip install -e .
 ```
 
 ## Quick Start
-### if you want to edit argument for evaluation, edit file **benchmark_evaluation.sh**
+if you want to edit argument for evaluation, edit file **benchmark_evaluation.sh**
 ```bash
 bash benchmark_evaluation.sh
 ```
