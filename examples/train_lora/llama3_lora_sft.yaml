@@ -38,5 +38,6 @@ per_device_eval_batch_size: 4
 eval_strategy: steps
 eval_steps: 10000
 
-report_to: wandb
-run_name: LLaMA3_edu_v3
+# for wandb report
+# report_to: wandb
+# run_name: LLaMA3_edu_v3
