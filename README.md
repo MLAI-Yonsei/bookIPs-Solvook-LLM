@@ -58,7 +58,7 @@ pip install -e .
 ```
 
 ## Quick Start
-if you want to edit argument for evaluation, edit file **benchmark_evaluation.sh**
+if you want to edit argument for evaluation, edit file **llama3.1_edu_evaluation.sh**
 ```bash
-bash benchmark_evaluation.sh
+bash llama3.1_edu_evaluation.sh
 ```
