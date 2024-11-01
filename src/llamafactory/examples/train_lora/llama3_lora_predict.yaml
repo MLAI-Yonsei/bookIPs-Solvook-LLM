@@ -1,6 +1,6 @@
 ### model
-model_name_or_path: akjindal53244/Llama-3.1-Storm-8B
-adapter_name_or_path: saves/llama3.1_edu
+model_name_or_path: meta-llama/Meta-Llama-3-8B-Instruct
+adapter_name_or_path: saves/llama3-8b/lora/sft
 
 ### method
 stage: sft
@@ -8,7 +8,7 @@ do_predict: true
 finetuning_type: lora
 
 ### dataset
-eval_dataset: Solvook_instruction_ver3_te
+eval_dataset: identity,alpaca_en_demo
 template: llama3
 cutoff_len: 1024
 max_samples: 50
