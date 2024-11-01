@@ -5,9 +5,10 @@
 Developing a LLM based on LLaMA 3.1 for tasks related to korean - english educational contents using LLaMA factory
 
 
-# Because of using different package, you have to seperate environment for fine tuning (inference) and benchmark dataset evaluation
+## Because of using different package, you have to seperate environment for fine tuning (inference) and benchmark dataset evaluation
 
-# !!! Please check whether your dataset and model path are right place !!!
+## !!! Please check whether your dataset and model path are right place !!!
+our dataset and model file link (not for public): https://drive.google.com/drive/folders/1MKuKHomY80jABU5Dykpg86Fe9-tuTD4t?usp=sharing
 # 1. For LLaMA Factory - LLM fine tuning
 
 ```bash
