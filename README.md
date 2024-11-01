@@ -7,16 +7,15 @@ Developing a LLM based on LLaMA 3.1 for tasks related to korean - english educat
 
 # Because of using different package, you have to seperate environment for fine tuning (inference) and benchmark dataset evaluation
 
-
+# !!! Please check whether your dataset and model path are right place !!!
 # 1. For LLaMA Factory - LLM fine tuning
 
 ```bash
-git clone https://github.com/MLAI-Yonsei/bookIPs-Solvook-LLM.git
+git clone --recurse-submodules https://github.com/MLAI-Yonsei/bookIPs-Solvook-LLM.git
 cd bookIPs-Solvook-LLM
 conda create -n <name> python==3.11
 conda activate <name>
-pip install -e ".[torch,metrics]"
-pip install --upgrade huggingface_hub
+pip install -r requirements.txt
 huggingface-cli login
 ```
 
